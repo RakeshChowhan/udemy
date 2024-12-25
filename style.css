@@ -1,0 +1,297 @@
+body {
+
+  background-color: azure;
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  cursor: pointer;
+  padding-bottom: 10px;
+  font-family: serif;
+  padding-top: 20px;
+  text-decoration: none;
+  cursor: pointer;
+
+
+}
+
+#loginbtn {
+  width: 90px;
+  height: 35px;
+  cursor: pointer;
+
+}
+
+#signupbtn {
+  width: 90px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  font-weight: 50px;
+  cursor: pointer;
+
+}
+
+input {
+  background-image: url(search_icon.png);
+  padding-right: 10px;
+  width: 350px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  padding: 10px;
+  padding-left: 50px;
+  background-position: 10px;
+  font-size: 20px;
+}
+
+button {
+  font-weight: 100px;
+}
+
+p {
+  font-size: 12px;
+}
+
+.first-p {
+  font-size: 18px;
+}
+
+.contents {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-decoration: none;
+  padding-bottom: 40px;
+
+}
+
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-decoration: none;
+  border-radius: 40px;
+  background-color: rgb(247, 250, 250);
+  text-decoration: none;
+
+
+
+}
+
+.card-text {
+  color: darkgray;
+
+}
+
+.detailed_course {
+  display: flex;
+
+  column-gap: 50px;
+  row-gap: 40px;
+  flex-wrap: wrap;
+}
+
+.btn1 {
+  font-size: 20px;
+  height: 50px;
+  width: 350px;
+  font-weight: 100;
+}
+
+.logoes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 70px;
+  row-gap: 50px;
+  flex-wrap: wrap;
+}
+
+h2 {
+  padding-top: 20px;
+  padding-right: 2cm;
+  justify-content: center;
+}
+
+#font {
+  font-size: 22px;
+
+}
+
+.goals {
+  display: flex;
+
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#goals1_1 {
+  border-left: 10px solid purple;
+  background-image: url(https://cms-images.udemycdn.com/96883mtakkm8/7kN9RBFSMFNHzsGWsElMPi/dde73f8d1c47e046f035274e78410590/hands-on-practice.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 10px 10px;
+  padding: 30px;
+}
+
+#program {
+  font-size: 20px;
+  color: grey;
+}
+
+#para {
+  color: rgb(46, 44, 44);
+
+}
+
+#para1 {
+  color: grey;
+
+}
+
+#beauty {
+  align-items: center;
+  background-image: url(user.png);
+}
+
+.plans {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+#plan1 {
+  border-top: 10px solid purple;
+  border-left: 1px solid #bbb;
+  border-right: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.lrs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-top: 30px;
+  background-color: rgba(219, 202, 218, 0.151);
+
+}
+
+#lrs1 {
+  border: 1px solid purple;
+  padding: 40px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+#paisa {
+  color: gray;
+}
+
+.trends {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+#btn_1 {
+  display: inline;
+  font-weight: 30px;
+  width: 150px;
+  letter-spacing: 2px;
+  height: 40px;
+  color: black;
+  background-color: white;
+}
+.new_repo{
+  display:inline;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:column;
+
+}
+.mytri{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-top: 30px;
+  background-color: rgba(226, 204, 225, 0.151);
+}
+
+#m1,#m2,#m3,#m4{
+  padding: 40px;
+ margin: 4px;
+}
+
+.Booz{
+  display:inline;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:column;
+}
+#btn_2 {
+  display: inline;
+  width: 150px;
+  height: 40px;
+  font-weight: 30px;
+  color: white;
+  background-color:black;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.footer1{
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 37px;
+  align-items: center;
+  justify-content: space-between;
+  padding:15px;
+  border: 0.5 solid white;
+}
+.footer2{
+  display: flex;
+  color:white;
+  background-color: black;
+  column-gap: 30px;
+  border-top:1px solid white;
+  text-decoration: none;
+  padding-left:30px ;
+}
+#f2_1{
+  display: flex;
+  flex-direction: column;
+  }
+.footer3{
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+  padding:15px;
+  color: white;
+}
+#f3{
+  display: flex;
+  flex-direction: column;
+  }
+
+  
+
